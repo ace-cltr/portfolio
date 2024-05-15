@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  display: inline;
+  padding: 14px 20px;
+}
+
+.navbar ul li a {
+  color: #00FF00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.about, .projects, .github, .resume {
+  padding: 20px;
+  margin: 20px;
+}
+
+.project, .resume img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+a {
+  color: #00FF00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.github img {
+  width: 100%;
+  max-width: 800px;
+}
+
+@media (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+  }
+  
+  .navbar ul li {
+    padding: 10px;
+  }
+  
+  .github img {
+    max-width: 100%;
+  }
+}
