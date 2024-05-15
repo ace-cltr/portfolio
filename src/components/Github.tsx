@@ -3,7 +3,7 @@ import React from 'react';
 const Github: React.FC = () => {
   return (
     <div className="github">
-      <h2>Days I Contribute</h2>
+      <h2>Contact Me</h2>
     </div>
   );
 }

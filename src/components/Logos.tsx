@@ -5,7 +5,7 @@ const Github: React.FC = () => {
   return (
     <div className="logos">
       <div className="logos-slide">
-        <img src="./logoImg/html.svg" />
+        <img src="./logoImg/htmls.svg" />
         <img src="./logoImg/css.svg" />
         <img src="./logoImg/tailwind-css.svg" />
         <img src="./logoImg/javascript.svg" />
@@ -16,11 +16,12 @@ const Github: React.FC = () => {
         <img src="./logoImg/express.svg" />
         <img src="./logoImg/mongodb.svg" />
         <img src="./logoImg/firebase.svg" />
-        <img src="./logoImg/linux.svg" />
+        <img src="./logoImg/linuxs.png" />
+        <img src="./logoImg/vscode.png" />
       </div>
 
       <div className="logos-slide">
-      <img src="./logoImg/html.svg" />
+      <img src="./logoImg/htmls.svg" />
         <img src="./logoImg/css.svg" />
         <img src="./logoImg/tailwind-css.svg" />
         <img src="./logoImg/javascript.svg" />
@@ -31,7 +32,9 @@ const Github: React.FC = () => {
         <img src="./logoImg/express.svg" />
         <img src="./logoImg/mongodb.svg" />
         <img src="./logoImg/firebase.svg" />
-        <img src="./logoImg/linux.svg" />
+        <img src="./logoImg/linuxs.png" />
+        <img src="./logoImg/vscode.png" />
+
       </div>
     </div>
   );
