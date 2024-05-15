@@ -14,15 +14,15 @@ const About: React.FC = () => {
       >
         <h1>Hi, I'm Anand Vishwakarma 👋</h1>
         <p>
-          A fullstack developer with Hands-On Experience in building dynamic
-          and responsive web applications using React.js and Next.js, and for
+          A fullstack developer with Hands-On Experience in building dynamic and
+          responsive web applications using React.js and Next.js, and for
           Backend Node.js, Express.js and Mongo DB or postgresql as Database.
         </p>
       </motion.div>
-      <Button>Download CV</Button> 
-      <h2>Tech Stack</h2>
+      <h2 className="techStack">Tech Stack</h2>
       <Logos />
       <GithubContribution />
+      <Button>Download CV</Button>
     </>
   );
 };

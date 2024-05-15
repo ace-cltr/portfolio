@@ -11,9 +11,9 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: 'Project 1',
+    name: 'Adventure log',
     description: 'Description of Project 1.',
-    imageUrl: './img/quiz.png',
+    imageUrl: './img/adv.png',
     githubUrl: 'https://github.com/ace-cltr/binge-watch',
   },
   {
@@ -36,10 +36,14 @@ const projects: Project[] = [
   },
 ];
 
+const colorHeading: React.CSSProperties = {
+  color: '#00ff00',
+};
+
 const Projects: React.FC = () => {
   return (
     <div className="projects">
-      <h2>Projects</h2>
+      <h2 style={colorHeading}>Projects</h2>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <motion.div
