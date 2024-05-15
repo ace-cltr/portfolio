@@ -1,0 +1,70 @@
+.projects {
+  padding: 20px;
+  margin: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 600px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.project {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project h3 {
+  margin-top: 10px;
+  color: #00ff00;
+}
+
+.project p {
+  color: #ccc;
+}
+
+
+a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.github img {
+  width: 100%;
+  max-width: 800px;
+}
+
+@media (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+  }
+
+  .navbar ul li {
+    padding: 10px;
+  }
+
+  .github img {
+    max-width: 100%;
+  }
+}
