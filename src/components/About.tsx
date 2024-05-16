@@ -39,6 +39,7 @@ const About: React.FC = () => {
         // animate={{ y: 10 }}
         // transition={{ type: "spring", stiffness: 100 }}
       >
+        <img className="potrait" src="./img/self3.jpg" alt='anandImg' />
         <h1>
           Hi, I'm <strong style={styles}>Anand Vishwakarma</strong>
         </h1>
