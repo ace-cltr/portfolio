@@ -51,11 +51,13 @@ const About: React.FC = () => {
             transition={{ duration: 1.6, repeat: Infinity }}
             className="word"
           >
-            {words}
+            <strong>{words}</strong>
           </motion.span>{" "}
           with Hands-On Experience in building dynamic and responsive web
-          applications using React.js and Next.js, and for Backend Node.js,
-          Express.js and Mongo DB or postgresql as Database.
+          applications using <strong>React.js</strong> and{" "}
+          <strong>Next.js</strong>, and for Backend{" "}
+          <strong>Node.js, Express.js</strong> and <strong>Mongo DB </strong>or{" "}
+          <strong>postgresql</strong> as Database.
         </p>
       </motion.div>
       <SectionDiv />
