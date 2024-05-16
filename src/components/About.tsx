@@ -42,7 +42,7 @@ const About: React.FC = () => {
         className="about"
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.4}}
+        
         // animate={{ y: 10 }}
         // transition={{ type: "spring", stiffness: 100 }}
       >
