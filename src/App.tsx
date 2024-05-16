@@ -28,6 +28,7 @@ const App: React.FC = () => {
         className="navbar"
         initial={{ y: -300, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.3}}
       >
         <ul>
           <motion.li whileHover={{ scale: 1.2 }}>
