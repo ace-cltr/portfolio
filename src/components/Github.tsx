@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Github: React.FC = () => {
   return (
@@ -6,6 +6,6 @@ const Github: React.FC = () => {
       <h2>Contact Me</h2>
     </div>
   );
-}
+};
 
 export default Github;

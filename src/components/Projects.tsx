@@ -25,7 +25,8 @@ const projects: Project[] = [
   },
   {
     name: "Quiz app",
-    description: "Quiz-web-app with features like timer, high score and click to reveal feature ",
+    description:
+      "Quiz-web-app with features like timer, high score and click to reveal feature ",
     imageUrl: "./img/quiz.png",
     githubUrl: "https://quiz-app-kappa-taupe.vercel.app/",
   },
