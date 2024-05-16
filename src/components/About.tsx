@@ -5,6 +5,7 @@ import GithubContribution from "./GithubcContribution";
 import Button from "./Button";
 import Footer from "./Footer";
 import SectionDiv from "./SectionDIv";
+import { Link } from "react-router-dom";
 
 const About: React.FC = () => {
   const styles: React.CSSProperties = {
@@ -14,8 +15,12 @@ const About: React.FC = () => {
   const [words, setWords] = useState("Full Stack Developer");
   const word = [
     "फुल स्टैक डेवलपर",
+    "ওয়েব ডেভেলপমেন্ট",
+    "വെബ് ഡവലപ്‍മെന്റ്",
     "网站开发人员",
     "desarrollador web",
+    "Programmation web",
+    "Desenvolvimento web",
     "ウェブサイト開発者",
     "développeur de Web",
   ];
@@ -66,7 +71,7 @@ const About: React.FC = () => {
       <Logos />
       <SectionDiv />
       <GithubContribution />
-      <Button>Download CV</Button>
+      <Link to='resume'><Button>Download CV</Button></Link>
       <Footer />
     </>
   );

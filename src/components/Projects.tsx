@@ -33,7 +33,7 @@ const projects: Project[] = [
   {
     name: "Portfolio",
     description: "All about me can be found here",
-    imageUrl: "./img/Untitled.png",
+    imageUrl: "./img/portSS.png",
     githubUrl: "https://portfolio-ace.vercel.app/",
   },
 ];
