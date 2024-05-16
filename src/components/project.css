@@ -16,7 +16,7 @@
 }
 
 .project {
-  background-color: #1e1e1e;
+  background-color: #FFFFFF;
   border-radius: 8px;
   padding: 10px;
   margin-top: 20px;
@@ -33,16 +33,13 @@
 }
 
 .project h3 {
-  margin-top: 10px;
-  color: #ffffff;
+  margin-top: 5px;
+  color: #2C384A;
 }
-  
 
 .project p {
-  color: #ccc;
-  padding: 10px 0;
+  color: #2C384A;
 }
-
 
 a {
   color: #00ff00;
