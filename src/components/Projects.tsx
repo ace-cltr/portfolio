@@ -13,27 +13,27 @@ interface Project {
 const projects: Project[] = [
   {
     name: "Adventure log",
-    description: "Description of Project 1.",
+    description: "A real world web app to log your trip around the globe",
     imageUrl: "./img/adv.png",
-    githubUrl: "https://github.com/ace-cltr/binge-watch",
+    githubUrl: "https://adventure-log-sigma.vercel.app/",
   },
   {
-    name: "binge Watch",
+    name: "Binge watch",
     description: "Responsive and user-friendly movie-data fetching website",
     imageUrl: "./img/Untitled.png",
-    githubUrl: "https://github.com/ace-cltr/binge-watch",
+    githubUrl: "https://binge-watch-delta.vercel.app/",
   },
   {
-    name: "Project 3",
-    description: "Description of Project 3.",
-    imageUrl: "./img/Untitled.png",
-    githubUrl: "https://github.com/ace-cltr/binge-watch",
+    name: "Quiz app",
+    description: "Quiz-web-app with features like timer, high score and click to reveal feature ",
+    imageUrl: "./img/quiz.png",
+    githubUrl: "https://quiz-app-kappa-taupe.vercel.app/",
   },
   {
-    name: "Project 4",
-    description: "Description of Project 4.",
+    name: "Portfolio",
+    description: "All about me can be found here",
     imageUrl: "./img/Untitled.png",
-    githubUrl: "https://github.com/ace-cltr/binge-watch",
+    githubUrl: "https://portfolio-ace.vercel.app/",
   },
 ];
 

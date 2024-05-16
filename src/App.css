@@ -70,6 +70,16 @@ body {
 .techStack{
   color: #00ff00;
   text-decoration: underline;
+  margin-top: 38px;
+}
+
+.divider{
+  display: grid;
+  place-items: center; 
+ background-color: #e5e7eb;
+ margin:20px 50%;
+ height: 110px;
+ width: 2.5px;
 }
 
 .about p {
@@ -146,7 +156,11 @@ display: inline-block;
     padding: 0px;
     margin: 10px 10px;
   }
-
+  .divider{
+   margin:10px 50%;
+   height: 90px;
+   width: 2.1px;
+  }
   .about h1 {
     font-size: 1.5rem;
     margin: 20px 0;

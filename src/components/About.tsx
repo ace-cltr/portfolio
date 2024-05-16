@@ -4,6 +4,7 @@ import Logos from "./Logos";
 import GithubContribution from "./GithubcContribution";
 import Button from "./Button";
 import Footer from "./Footer";
+import SectionDiv from "./SectionDIv";
 
 const About: React.FC = () => {
   const styles: React.CSSProperties = {
@@ -13,10 +14,10 @@ const About: React.FC = () => {
   const [words, setWords] = useState("Full Stack Developer");
   const word = [
     "फुल स्टैक डेवलपर",
-    "desarrollador web",
-    "développeur de Web",
     "网站开发人员",
+    "desarrollador web",
     "ウェブサイト開発者",
+    "développeur de Web",
   ];
 
   let i = 0;
@@ -57,8 +58,10 @@ const About: React.FC = () => {
           Express.js and Mongo DB or postgresql as Database.
         </p>
       </motion.div>
+      <SectionDiv />
       <h2 className="techStack">Tech Stack</h2>
       <Logos />
+      <SectionDiv />
       <GithubContribution />
       <Button>Download CV</Button>
       <Footer />
