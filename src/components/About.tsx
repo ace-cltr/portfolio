@@ -40,9 +40,9 @@ const About: React.FC = () => {
     <>
       <motion.div
         className="about"
-        initial={{ y: -50, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        
+        initial={{ x: -50, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1.6}}
         // animate={{ y: 10 }}
         // transition={{ type: "spring", stiffness: 100 }}
       >
@@ -56,7 +56,7 @@ const About: React.FC = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 1.6, repeat: Infinity }}
+            transition={{ duration: 1, repeat: Infinity }}
             className="word"
           >
             <strong>{words}</strong>
