@@ -12,6 +12,12 @@ interface Project {
 
 const projects: Project[] = [
   {
+    name: "Blog App",
+    description: "Blog App with Node js as Backend and modern world feature",
+    imageUrl: "./img/download.png",
+    githubUrl: "https://blog-app-nodejs-one.vercel.app/",
+  },
+  {
     name: "Adventure log",
     description: "A real world web app to log your trip around the globe",
     imageUrl: "./img/adv.png",
@@ -29,12 +35,6 @@ const projects: Project[] = [
       "Quiz-web-app with features like timer, high score and click to reveal feature ",
     imageUrl: "./img/quiz.png",
     githubUrl: "https://quiz-app-kappa-taupe.vercel.app/",
-  },
-  {
-    name: "Portfolio",
-    description: "All about me can be found here",
-    imageUrl: "./img/portSS.png",
-    githubUrl: "https://portfolio-ace.vercel.app/",
   },
 ];
 
