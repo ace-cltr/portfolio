@@ -8,7 +8,6 @@ import SectionDiv from "./SectionDIv";
 import { Link } from "react-router-dom";
 
 const About: React.FC = () => {
-
   const styles: React.CSSProperties = {
     color: "#00ff00",
     marginBottom: "20px",
@@ -42,7 +41,7 @@ const About: React.FC = () => {
         className="about"
         initial={{ x: -50, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 1.6}}
+        transition={{ duration: 1.6 }}
         // animate={{ y: 10 }}
         // transition={{ type: "spring", stiffness: 100 }}
       >
@@ -73,9 +72,13 @@ const About: React.FC = () => {
       <Logos />
       <SectionDiv />
       <GithubContribution />
-      <Link to="resume">
+      <a
+        href="/res/resume.pdf"
+        download="/res/resume.pdf"
+        target="_blank"
+      >
         <Button>Download CV</Button>
-      </Link>
+      </a>
       <Footer />
     </>
   );

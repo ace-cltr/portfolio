@@ -11,14 +11,14 @@ const Resume: React.FC = () => {
       <div className="resume">
         <h2 style={styles}>Resume</h2>
         <a
-          href="https://drive.google.com/file/d/1bY3XCB6_rDpya2Vxi_CRvCANv7tEymio/view?usp=sharing"
+          href="https://drive.google.com/file/d/1roTsSbdIOtUVJDNfD9K0ikictE_fVCtm/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="./img/res.jpg" alt="Resume Screenshot" />
+          <img src="/res/Resumee.jpg" />
         </a>
       </div>
-      <Footer />
+      <Footer />  
     </>
   );
 };
