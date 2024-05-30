@@ -10,15 +10,11 @@ const Resume: React.FC = () => {
     <>
       <div className="resume">
         <h2 style={styles}>Resume</h2>
-        <a
-          href="https://drive.google.com/file/d/1roTsSbdIOtUVJDNfD9K0ikictE_fVCtm/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="/res/resume.pdf" download="/res/resume.pdf" target="_blank">
           <img src="/res/Resumee.jpg" />
         </a>
       </div>
-      <Footer />  
+      <Footer />
     </>
   );
 };
