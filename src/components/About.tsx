@@ -5,7 +5,6 @@ import GithubContribution from "./GithubcContribution";
 import Button from "./Button";
 import Footer from "./Footer";
 import SectionDiv from "./SectionDIv";
-import { Link } from "react-router-dom";
 
 const About: React.FC = () => {
   const styles: React.CSSProperties = {
