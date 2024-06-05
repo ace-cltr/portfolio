@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./ContactMe.css";
-import Map from "./Map"
+import Map from "./Map";
 
 const ContactMe: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -10,17 +10,16 @@ const ContactMe: React.FC = () => {
     organization: "",
   });
 
-  const handleChange = () => {
-    // const { name, value } = e.target;
-    // setFormData({
-    //   ...formData,
-    //   [name]: value,
-    // });
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
   };
 
-  const handleSubmit = () => {
-    // e.preventDefault();
-    // Handle form submission logic here
+  const handleSubmit = (e: React.ChangeEvent<HTMLInputElement>) => {
+    e.preventDefault();
     alert("This section doesn't work yet");
   };
   const styles: React.CSSProperties = {
@@ -31,7 +30,7 @@ const ContactMe: React.FC = () => {
     <div>
       <h2 style={styles}>Contact Me</h2>
       <div className="contact-me">
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={() => handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Name:</label>
             <input
@@ -39,7 +38,7 @@ const ContactMe: React.FC = () => {
               id="name"
               name="name"
               value={formData.name}
-              onChange={handleChange}
+              onChange={() => handleChange}
               required
             />
           </div>
@@ -50,7 +49,7 @@ const ContactMe: React.FC = () => {
               id="email"
               name="email"
               value={formData.email}
-              onChange={handleChange}
+              onChange={() => handleChange}
               required
             />
           </div>
@@ -66,9 +65,12 @@ const ContactMe: React.FC = () => {
           </div>
           <div className="form-group">
             <label htmlFor="organization">Your Message:</label>
-            <textarea onChange={handleChange} value={formData.organization} />
+            <textarea
+              onChange={() => handleChange}
+              value={formData.organization}
+            />
           </div>
-          <button type="submit" onClick={handleSubmit}>
+          <button type="submit" onClick={() => handleSubmit}>
             Submit
           </button>
         </form>
