@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./ContactMe.css";
+import Map from "./Map"
 
 const ContactMe: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -9,16 +10,16 @@ const ContactMe: React.FC = () => {
     organization: "",
   });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
+  const handleChange = () => {
+    // const { name, value } = e.target;
+    // setFormData({
+    //   ...formData,
+    //   [name]: value,
+    // });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
+    // e.preventDefault();
     // Handle form submission logic here
     alert("This section doesn't work yet");
   };
@@ -72,6 +73,7 @@ const ContactMe: React.FC = () => {
           </button>
         </form>
       </div>
+      <Map />
     </div>
   );
 };
