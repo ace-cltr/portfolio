@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Logos from "./Logos";
 import GithubContribution from "./GithubcContribution";
-import Button from "./Button";
 import Footer from "./Footer";
 import SectionDiv from "./SectionDIv";
+import Socials from "./Socials";
 
 const About: React.FC = () => {
   const styles: React.CSSProperties = {
@@ -27,12 +27,11 @@ const About: React.FC = () => {
   let i = 0;
 
   useEffect(() => {
-    const interval = setInterval(() => {
+     setInterval(() => {
       setWords(word[i]);
       i = (i + 1) % word.length;
     }, 1600);
 
-    return () => clearInterval(interval);
   }, []);
   return (
     <>
@@ -66,18 +65,13 @@ const About: React.FC = () => {
           <strong>postgresql</strong> as Database.
         </p>
       </motion.div>
+      <Socials />
       <SectionDiv />
       <h2 className="techStack">Tech Stack</h2>
       <Logos />
       <SectionDiv />
       <GithubContribution />
-      <a
-        href="/res/resume.pdf"
-        download="/res/resume.pdf"
-        target="_blank"
-      >
-        <Button>Download CV</Button>
-      </a>
+      
       <Footer />
     </>
   );

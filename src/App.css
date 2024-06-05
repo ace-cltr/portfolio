@@ -206,22 +206,25 @@ footer {
 
 /* ----------- Button ------------ */
 
-.button {
+
+.social-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.social-buttons img{
+  height: 40px;
+  cursor: pointer;
+}
+
+.social-buttons p {
   border: none;
   background-color: #03e703;
   color: white;
   padding: 10px;
-  margin: 15px 0px;
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: all 0.3s;
-}
-.button:hover {
-  border: none;
-  background-color: rgb(235, 235, 235);
-  color: #03e703;
-  padding: 10px;
+  font-weight: bold; 
+  border-radius: 20px;
   cursor: pointer;
-  transform: translateY(-2px);
+  margin-left: 40px ;
 }
