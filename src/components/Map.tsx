@@ -5,7 +5,7 @@ const Map: React.FC = () => {
       width="390"
       height="490"
       style={{ border: 0 }}
-      allowFullScreen=""
+      allowFullScreen={true}
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade"
     ></iframe>
