@@ -10,8 +10,12 @@ const Resume: React.FC = () => {
     <>
       <div className="resume">
         <h2 style={styles}>Resume</h2>
-        <a href="/res/resume.pdf" download="/res/resume.pdf" target="_blank">
-          <img src="/res/Resumee.jpg" />
+        <a
+          href="/res/ANAND-Software-Dev.pdf"
+          download="/res/ANAND-Software-Dev.pdf"
+          target="_blank"
+        >
+          <img src="/res/ANAND.jpg" />
         </a>
       </div>
       <Footer />
