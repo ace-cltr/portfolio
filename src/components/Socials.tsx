@@ -12,7 +12,11 @@ const Socials: React.FC = () => {
       <a href="https://www.linkedin.com/in/anand-vishwakarma-87a57a276">
         <img src="/res/linkedin.png" />
       </a>
-      <a href="/res/resume.pdf" download="/res/resume.pdf" target="_blank">
+      <a
+        href="/res/ANAND-Software-Dev.pdf"
+        download="/res/ANAND-Software-Dev.pdf"
+        target="_blank"
+      >
         <p>Download CV</p>
       </a>
     </div>
