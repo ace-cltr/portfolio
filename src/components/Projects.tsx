@@ -16,7 +16,7 @@ const projects: Project[] = [
     description:
       "Fullstack E-Commerce Responsive and user-friendly website with Authentication",
     imageUrl: "./img/e-commerce.png",
-    githubUrl: "https://binge-watch-delta.vercel.app/",
+    githubUrl: "https://ecommerce-website-eta-five.vercel.app/",
   },
   {
     name: "Blog App",
