@@ -12,6 +12,13 @@ interface Project {
 
 const projects: Project[] = [
   {
+    name: "I Shop",
+    description:
+      "Fullstack E-Commerce Responsive and user-friendly website with Authentication",
+    imageUrl: "./img/e-commerce.png",
+    githubUrl: "https://binge-watch-delta.vercel.app/",
+  },
+  {
     name: "Blog App",
     description: "Blog App with Node js as Backend and modern world feature",
     imageUrl: "./img/download.png",
@@ -23,12 +30,7 @@ const projects: Project[] = [
     imageUrl: "./img/adv.png",
     githubUrl: "https://adventure-log-sigma.vercel.app/",
   },
-  {
-    name: "Binge watch",
-    description: "Responsive and user-friendly movie-data fetching website",
-    imageUrl: "./img/Untitled.png",
-    githubUrl: "https://binge-watch-delta.vercel.app/",
-  },
+
   {
     name: "Quiz app",
     description:
